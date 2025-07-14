@@ -1,0 +1,16 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color:beige;
+}
+th,td{
+    border: 1px solid #0011ff;
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: rgb(43, 43, 43);
+    color: white;
+}

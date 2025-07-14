@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(26, 25, 25);
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 32px;
+    line-height: 1.4;
+}
+img{
+    width: 500px;
+    height: auto;
+}
+a{
+    color: rgb(167, 62, 62);
+    text-decoration:none;
+}
+a:hover{
+    color:chocolate;
+}
+img:hover{
+    width: 512px;
+    height: auto;
+}

@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    height: 10vh;
+    width: 98.4vw;
+    background-color: rgba(165, 42, 42, 0.897);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+}
+header img{
+    height: 80%;
+}
+header div img{
+    height: 8vh;
+}
+#lagosta{
+    position: relative;
+    right: 20px;
+    top: 10px;
+}
+#bolinha{
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 15% 20%;
+    border-radius: 50%;
+    top: -16px;
+    right: -10px;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+#container-banner{
+    background-image:url(https://s2.glbimg.com/RdxcYhHjNOSGnn7bThNUqUyvuKA=/e.glbimg.com/og/ed/f/original/2016/05/25/blue-lobster-520a.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+}
+#buttom{
+    position:fixed;
+    top: 90vh;
+    right: 0px;
+}
+#buttom img{
+    height: 10vh;
+}

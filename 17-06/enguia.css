@@ -1,0 +1,20 @@
+#divpai{
+    height: 500px;
+    padding: 10px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content:center;
+    align-items:stretch;
+    flex-wrap:wrap;
+
+}
+#div1{
+    align-self: center;
+    background-color:teal;
+    padding: 20px;
+    border-radius: 20px;
+}
+.testo{
+    justify-self: center;
+    font-family: 'Courier New', Courier, monospace;
+}

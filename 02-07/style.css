@@ -1,0 +1,197 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --cor-principal: #d89467;
+    --fonte-base: Arial, sans-serif;
+}
+
+body{
+    background-color: var(--cor-principal);
+    font-family: var(--fonte-base);
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    transition: background-color 1s ease;
+}
+header nav{
+    display: flex;
+    gap: 10px;
+    transition: max-height 0.5s ease, opacity 1s ease;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+/*
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+@media (max-width: 600px){
+    body{
+        background-color: blue;
+    }
+}
+@media (orientation:landscape){
+    body{
+        background-color: brown;
+    }
+}
+@media (orientation:portrait){
+    body{
+        background-color: rgb(42, 165, 58);
+    }
+}*/
+@media (max-width: 600px) {
+    header nav{
+        max-height: 0px;
+        opacity: 0;
+        transition: max-height 0.5s ease;
+    }
+    header{
+        gap: 10px;
+        flex-direction: column;
+    }
+}
+
+/* Para tablets, entre 601px e 1024px */
+@media (min-width: 601px) and (max-width: 1024px) {
+    header nav{
+        max-height: 0px;
+        opacity: 0;
+        transition: max-height 0.5s ease;
+    }
+    header{
+        gap: 10px;
+        flex-direction: column;
+    }
+}
+
+/* Para telas grandes, acima de 1024px */
+@media (min-width: 1025px) {
+    .show{
+        display: none;
+    }
+}
+.show:hover{
+    cursor:pointer;
+}
+.showNav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav.ativo{
+    max-height: 500px;
+    opacity: 1;
+}
+#banner{
+    height: 80vh;
+    background-image: url(https://s2.glbimg.com/RdxcYhHjNOSGnn7bThNUqUyvuKA=/e.glbimg.com/og/ed/f/original/2016/05/25/blue-lobster-520a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header.change{
+    background-color: rgba(0, 0, 0, 0.473);
+    transition: background-color 1s ease;
+}
+a{
+    transition: transform 0.5s ease;
+}
+a:hover{
+    transform: scale(1.1);
+}
+.card {
+    width: 20vw;
+    height: 500px;
+    background-color: rgb(231, 231, 231);
+    border: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    align-content: center;
+    transition: transform 0.5s ease;
+}
+.card h3{
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card img{
+    width: 100%;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 30vh;
+}
+.cards-container{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+.box{
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+.box.visible{
+    opacity: 1;
+    animation: fade-in 1s forwards;
+}
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes slideIn{
+    from{transform: translateX(-100%); opacity: 0;}
+    to{transform: translateX(0); opacity: 1;}
+}
+@keyframes zoom-in {
+    from{transform:scale(0.5); opacity: 0;}
+    to{transform:scale(1); opacity: 1;}
+}
+@keyframes pulse {
+    0%{transform:scale(1);}
+    50%{transform:scale(1.1);}
+    100%{transform:scale(1);}
+}
+.pulse{
+    animation: pulse 1s infinite;
+}
+.zoom-in{
+    animation: zoom-in 2s ease forwards;
+}
+
+.slide-in{
+    animation: slideIn 2s ease forwards;
+}
+
+.fade-in{
+    animation: fadeIn 2s ease forwards;
+}

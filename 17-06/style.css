@@ -1,0 +1,43 @@
+#divpai{
+    height: 500px;
+    background-color: rgb(46, 45, 45);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 45px;
+    align-items:stretch;
+    flex-wrap:wrap;
+}
+#divextra{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.2;
+}
+#div1{
+    padding: 10px;
+    background-color: brown;
+    color: antiquewhite;
+    flex-grow: 1;
+}
+#div2{
+    padding: 10px;
+    background-color:cadetblue;
+    color:black;
+    flex-grow: 1;
+}
+#div3{
+    padding: 10px;
+    background-color:antiquewhite;
+    color:teal;
+}
+#div4{
+    color: white;
+}
+.font{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:xx-large;
+}
+.titulo{
+    justify-self: center;
+}

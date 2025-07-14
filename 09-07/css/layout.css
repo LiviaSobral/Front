@@ -1,0 +1,14 @@
+header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}

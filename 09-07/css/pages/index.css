@@ -1,0 +1,7 @@
+#banner-principal{
+    font-size: var(--large);
+    background-image: url(https://s2.glbimg.com/RdxcYhHjNOSGnn7bThNUqUyvuKA=/e.glbimg.com/og/ed/f/original/2016/05/25/blue-lobster-520a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
