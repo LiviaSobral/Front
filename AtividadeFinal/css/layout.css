@@ -1,0 +1,226 @@
+header{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+#offers{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    gap: 5px;
+}
+.end{
+    justify-self: end;
+    margin-top: -7%;
+}
+.card-img{
+    display: flex;
+    align-items: end;
+    text-align: start;
+    width: 24.61vw;
+    height: 40vh;
+}
+.label{
+    margin-top: -18%;
+    height: 10vh;
+    width: 100%;
+    padding: 2%;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer div{
+    display: flex;
+    gap: 10px;
+}
+footer div img{
+    height: 20px;
+}
+#banner{
+    height: 60vh;
+}
+#submit{
+    width: 230px;
+    height: 40px;
+}
+#search{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.form-section{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+form{
+    display: flex;
+    align-items: center;
+}
+#order{
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    gap: 20px;
+    width: 50%;
+}
+.icon{
+    display: flex;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    align-content: center; 
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    bottom: 90%;
+    right: 36%;
+}
+.icon img{
+    width: 30px;
+    height: auto;
+}
+#cards{
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    align-items: center;
+    flex-direction: column;
+}
+#order2{
+    display: flex;
+    gap: 50px;
+}
+.card{
+    position: relative;
+    width: 300px;
+}
+#imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+#imgs img{
+    width: 40px;
+    margin-bottom: 20px;
+}
+.new-cards{
+    display: flex;
+    gap: 100px;
+    height: 400px;
+}
+.new-card{
+    width: 250px;
+}
+#end{
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    display: flex;
+}
+.contain{
+    width: 250px;
+    margin-right: 30px;
+}
+.contain nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contain img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+@media (max-width: 1024px){
+    header nav{
+        position: absolute;
+        right: 0;
+        top: 0;
+        flex-direction: column;
+        gap: 10px;
+    }
+    form{
+        flex-direction: column;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card-img{
+        width: 100vw;
+    }
+    #order{
+        flex-direction: column;
+        width: 80vw;
+    }
+    #cards{
+        height: 140vh;
+    }
+    .card{
+        width: 90vw;
+        height: 25vh;
+    }
+    #order2{
+        flex-direction: column;
+    }
+    .carousel-item h4{
+        font-size: small;
+    }
+    .carousel-item h5{
+        font-size: medium;
+    }
+    .carousel-item p{
+        font-size: 10px;
+    }
+    #imgs{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+    }
+    #end{
+        flex-direction: column;
+        height: 160vh !important;
+        padding-top: 20vh !important;
+    }
+    #news{
+        height: 400vh !important;
+    }
+    .new-cards{
+        margin-top: 10px;
+        flex-direction: column;
+        justify-self: center;
+        height: 100%;
+    }
+    .card-group2{
+        margin-top: -125vh !important;
+        height: 50%;
+    }
+    .new-card{
+        width: 100vw;
+        height: 40vh;
+    }
+    .contain{
+        width: 60vw;
+    }
+    .icon{
+        right: 44%;
+    }
+}

@@ -1,0 +1,326 @@
+body{
+    font-family: "Raleway", sans-serif;
+}
+#carousel h5{
+    font-weight: bolder;
+    font-size: 5em;
+}
+header{
+    background-color: rgba(13, 129, 231, 0);
+}
+.dropdown-toggle{
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    border: none;
+}
+.dropdown-toggle:hover{
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    text-decoration: underline;
+}
+.active-review{
+    background-color: gray !important;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.underline{
+    color: white;
+}
+.card-img{
+    color: white;
+}
+.label{
+    background-color: rgba(0, 0, 0, 0.349);
+    transition: background-color 0.3s ease;
+}
+.label:hover{
+    background-color: rgba(156, 0, 0, 0.733);
+    cursor: pointer;
+}
+.end{
+    color: white;
+    font-weight: bolder;
+}
+#paragrafo{
+    color: rgb(173, 30, 30);
+}
+.card-img1{
+    background-image: url(https://www.planetware.com/wpimages/2019/01/turkey-top-attractions-antalya.jpg);
+}
+.card-img2{
+    background-image: url(https://entiretravel.imgix.net/getmedia/22c335e1-f6ff-41f0-8972-15c8d9b711ad/Spain-842x469.jpg?auto=format);
+}
+.card-img3{
+    background-image: url(https://s1.it.atcdn.net/wp-content/uploads/2015/11/shutterstock_279572969-800x600.jpg);
+    background-position: center;
+}
+.card-img4{
+    background-image: url(https://touritalynow.com/wp-content/uploads/2010/08/colosseum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-img5{
+    background-image: url(https://www.rgs.org/media/e0oh0g4f/united-kingdom-jamie-street-136939-unsplash_1.jpg?height=138.9423076923077&rxy=0.5%2C0.5&width=425);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-img6{
+    background-image: url(https://clickstay.s3-eu-west-1.amazonaws.com/images/blog/post/Lake%20Bled.jpg);
+    background-position: center;
+}
+.label h2{
+    font-size: 1em;
+}
+.label h3{
+    font-size: 2em;
+}
+.underline:hover{
+    color: white;
+    text-decoration: underline;
+}
+#number{
+    background-color: white;
+    padding: 5px;
+    border-radius: 30px;
+}
+header h1{
+    font-weight: bold;
+    color: white;
+}
+footer{
+    color: gray;
+    align-items: center;
+    padding: 10px;
+}
+#reviews{
+    margin-top: 50px;
+    text-align: center;
+}
+#reviews a{
+    color: rgb(202, 0, 0);
+    transition: color 0.5s linear;
+}
+#reviews span{
+    color: rgb(202, 0, 0);
+}
+#reviews a:hover{
+    color: black;
+}
+.review{
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    background-color: rgba(240, 248, 255, 0);
+}
+.review:hover{
+    border: 2px solid black;
+}
+.review:active{
+    background-color: gray;
+}
+.dropdown-menu{
+    background-color: gray;
+}
+.dropdown-menu .btn{
+    color: rgb(170, 170, 170);
+}
+#banner{
+    background-image: url(https://familytraveller.com/usa/wp-content/uploads/sites/2/2019/01/lake-geneva-family-activities-winter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 6vh;
+}
+#submit{
+    color: white;
+    background-color: rgb(76, 134, 167);
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    font-weight:600;
+}
+#submit:hover{
+    background-color: rgb(175, 41, 41);
+}
+#search{
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin-bottom: 3%;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+input{
+    border: 2px solid rgb(201, 201, 201);
+    padding: 5px;
+}
+#place{
+    text-align: center;
+    padding: 2%;
+}
+#order{
+    padding-top: 30px;
+    text-align:left;
+}
+#order p{
+    font-weight: 300;
+}
+#order h4{
+    font-size: 1.3em;
+    font-weight: 400;
+}
+.icon{
+    background-color: rgb(173, 46, 46);
+}
+#cards{
+    background-image: url(https://static1.thetravelimages.com/wordpress/wp-content/uploads/2023/01/andermatt-a-beautiful-small-town-surrounded-by-the-swiss-alps-switzerland.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.card{
+    text-align: center;
+    color: black;
+    padding: 20px;
+    padding-top: 40px;
+    margin-top: 10%;
+}
+.card h3{
+    font-size: larger;
+}
+.card a{
+    color: rgb(158, 20, 20);
+    transition: color 0.3s ease;
+}
+.card p{
+    color: gray;
+}
+.card a:hover{
+    color: black;
+}
+#imgs{
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    padding: 3%;
+}
+#imgs h5{
+    font-size: 50px;
+}
+#imgs p{
+    color: rgb(158, 20, 20);
+}
+#news{
+    padding: 30px;
+    text-align: center;
+    color: white;
+    background-image: url(https://media.invisioncic.com/l323473/monthly_2023_04/large.51884897082_e52ac972fb_o.jpg.94409675bdef1b1b8dcb847431b93958.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+}
+#news h5{
+    font-size: xx-large;
+}
+#news p{
+    color: rgb(212, 212, 212);
+}
+.new-cards{
+    margin-top: 60px;
+}
+.new-card{
+    align-content: center;
+    padding: 10px;
+}
+.new-card h6{
+    font-size: large;
+}
+#img1{
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/5ed3f78b406024000722e753/People-walking-on-Virginia-beach-and-wading-in-the-water-/960x0.jpg?format=jpg&width=960);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYYgQT6k0iknFuOKy2RkFIfyeKSt-T2WJxNkisiW-PqOUVQQWEXkxuZK885tn0jD7ugQY&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img3{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/TourEiffelLC.JPG/250px-TourEiffelLC.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img4{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/e1/d9/55/telford-bridge-craigellachie.jpg?w=900&h=-1&s=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img5{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSC106gnfXVFZJ_lqZq7_D2GRgNICRaDWzsw&s);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img6{
+    background-image: url(https://as1.ftcdn.net/jpg/01/26/49/54/1000_F_126495462_W6LAKY9dy39JtqcblEiejpjGTWk2Mw8i.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img7{
+    background-image: url(https://www.freedomtogo.co.uk/media/10174/istock_18378609_medium-st-michaels-mount.jpg?width=469&height=312);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img8{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIOYKaiaIDPGPKQQqDGq1O_vWBBfp6dxwtcw&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#end{
+    background-color: black;
+    height: 40vh;
+    padding: 30px;
+}
+#end h5{
+    color: white;
+    font-size: xx-large;
+}
+#end h6{
+    color: white;
+    font-size: larger;
+}
+#end p{
+    color: gray;
+}
+#end a{
+    color: gray;
+    transition: color 0.3s ease;
+}
+#end a:hover{
+    color: white;
+}
+.contain button{
+    background-color: rgba(240, 248, 255, 0);
+    border: 2px solid gray;
+    color: gray;
+    padding: 3px 10px 3px 10px;
+    margin: 3px;
+}
+.contain button:hover{
+    background-color: rgba(240, 248, 255, 0);
+    border: 2px solid white;
+    color: black;
+}
+.dropdown-menu{
+    background-color: black;
+}
+.dropdown-item{
+    color: rgb(190, 190, 190);
+    border-bottom: 1px solid rgb(51, 51, 51);
+}
+.dropdown-item:hover{
+    background-color: rgb(26, 26, 26);
+    color: rgb(190, 190, 190);
+}
